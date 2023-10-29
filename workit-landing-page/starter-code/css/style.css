@@ -1,0 +1,247 @@
+:root {
+  --dark-violet-blue: rgba(36, 5, 62, 255);
+  --neon-green: rgba(66, 255, 161, 255);
+  --fraunces: "Fraunces", serif;
+  --manrope: "Manrope", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.btn {
+  background-color: var(--neon-green);
+  color: black;
+  border: none;
+  font-family: var(--manrope);
+  font-weight: 800;
+  font-size: 1.2em;
+  padding: 1em 2em;
+}
+
+.btn:hover {
+  background-color: #0dfd85;
+  cursor: pointer;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.head-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3em 9em;
+  gap: 2em;
+}
+
+.top-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+.apply-text {
+  display: flex;
+  justify-content: right;
+  text-decoration: underline var(--neon-green);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+  font-size: 1.6em;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.introduction p {
+  font-family: var(--fraunces);
+  font-size: 6em;
+  font-weight: 400;
+  align-self: center;
+}
+
+.introduction span {
+  text-decoration: underline var(--neon-green);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px;
+}
+
+.left-img {
+  width: 300px;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  transform: translate(-40%);
+}
+
+.right-img {
+  position: absolute;
+  right: 0;
+  top: 300px;
+  transform: scale(0.9) translate(35%);
+}
+
+.dark-circle {
+  background-color: var(--dark-violet-blue);
+  border-radius: 100%;
+  width: 10000px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  z-index: -1;
+  align-self: center;
+  transform: translateY(-92%);
+}
+
+.head-page p {
+  color: white;
+}
+
+.phone-img {
+  width: 800px;
+  align-self: center;
+  transform: translate(5%);
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+  margin: 5em 3em;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  display: flex;
+  color: var(--dark-violet-blue);
+  font-family: var(--fraunces);
+  font-weight: 400;
+  font-size: 1.6em;
+  width: 2em;
+  border: solid rgba(129, 126, 133, 255) 1.5px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  font-family: var(--fraunces);
+  font-weight: 800;
+  font-size: 2em;
+  color: var(--dark-violet-blue);
+  margin-top: 1.5em;
+}
+
+.description-text {
+  font-family: var(--manrope);
+  font-weight: 400;
+  font-size: 1em;
+  color: rgba(129, 126, 133, 255);
+  width: 20vw;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.light-circle {
+  background-color: rgba(251, 248, 255, 255);
+  border-radius: 100%;
+  width: 10000px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: 700px;
+  z-index: -2;
+  align-self: center;
+  transform: translateY(-92%);
+}
+
+.founder {
+  display: flex;
+  margin-top: 25rem;
+}
+
+.founder-avatar {
+  width: 400px;
+  height: 400px;
+  aspect-ratio: 1/1;
+  margin: 0;
+  position: relative;
+  z-index: -1;
+  left: 20vw;
+  bottom: 15vh;
+}
+
+.founder-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-violet-blue);
+  color: white;
+  width: 40%;
+  padding: 4em 3em;
+  left: 15vw;
+  gap: 2em;
+}
+
+.founder-description p {
+  font-family: var(--fraunces);
+  font-weight: 400;
+  font-size: 4em;
+}
+
+.founder-description .description {
+  color: rgba(251, 248, 255, 255);
+  font-family: var(--manrope);
+  font-weight: 100;
+  font-size: 1.3em;
+}
+
+.apply-btn {
+  width: 13em;
+}
+
+.corner-img {
+  width: 15em;
+  position: absolute;
+  top: 130rem;
+  right: 20vw;
+  z-index: 2;
+}
+
+.logo-dark {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 8rem 0 4rem;
+}
+
+.social-media {
+  display: flex;
+  align-self: center;
+  gap: 2rem;
+  margin-bottom: 8rem;
+}

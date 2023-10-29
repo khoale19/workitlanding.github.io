@@ -1,0 +1,150 @@
+@media (min-width: 701px) and (max-width: 1024px) {
+  .head-page {
+    margin: 3em 3em;
+  }
+  .left-img {
+    transform: translate(-55%);
+  }
+  .right-img {
+    transform: translate(55%);
+  }
+  .introduction p {
+    font-size: 4em;
+  }
+  .phone-img {
+    width: 600px;
+  }
+  .dark-circle {
+    transform: translateY(-93.5%);
+  }
+  .feature-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+    align-self: center;
+  }
+  .feature {
+    flex-direction: row;
+  }
+  .number {
+    margin-right: 2em;
+  }
+  .name {
+    margin-top: 0;
+  }
+  .description {
+    width: 100%;
+    align-items: normal;
+  }
+  .description-text {
+    width: 100%;
+    text-align: left;
+  }
+  .light-circle {
+    transform: translateY(-94%);
+  }
+  .founder {
+    flex-direction: column;
+    margin-top: 15em;
+  }
+  .founder-avatar {
+    position: absolute;
+    margin: 0;
+    width: auto;
+    height: 35%;
+    top: 85rem;
+    left: 5vw;
+  }
+  .founder-description {
+    width: 70%;
+    left: 20vw;
+  }
+  .founder-description p {
+    font-size: 3em;
+  }
+  .founder-description .description {
+    font-size: 1em;
+  }
+  .corner-img {
+    width: 12em;
+    top: 117rem;
+    right: 10vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .left-img,
+  .right-img,
+  .corner-img {
+    display: none;
+  }
+  .logo {
+    width: 5em;
+  }
+  .apply-text {
+    font-size: 1.5em;
+  }
+  .head-page {
+    margin: 1em 1em;
+    gap: 1em;
+  }
+  .introduction p {
+    font-size: 3em;
+  }
+  .phone-img {
+    width: 400px;
+  }
+  .learn-more {
+    font-size: 1em;
+  }
+  .dark-circle {
+    transform: translateY(-95.7%);
+  }
+  .feature-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+    align-self: center;
+  }
+  .feature {
+    flex-direction: column;
+    align-items: center;
+  }
+  .name {
+    margin-top: 1em;
+  }
+  .description-text {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .light-circle {
+    transform: translateY(-92.5%);
+  }
+  .founder {
+    flex-direction: column;
+    margin-top: 0em;
+    align-items: center;
+  }
+  .founder-avatar {
+    position: relative;
+    left: 0;
+    top: 5em;
+    margin: 0;
+    width: 70%;
+    height: 70%;
+  }
+  .founder-description {
+    width: 90%;
+    left: 0;
+    align-items: center;
+  }
+  .founder-description p {
+    font-size: 2.5em;
+  }
+  .founder-description .description {
+    font-size: 1em;
+  }
+  .btn {
+    margin: auto;
+  }
+}
